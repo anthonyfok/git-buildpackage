@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE phrase PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<phrase>
       <citerefentry>
         <refentrytitle>debuild</refentrytitle>
         <manvolnum>1</manvolnum>
@@ -12,3 +16,4 @@
       </citerefentry>,
       <ulink url="file:///usr/share/doc/git-buildpackage/manual-html/index.html">
       <citetitle>The Git-Buildpackage Manual</citetitle></ulink>
+</phrase>

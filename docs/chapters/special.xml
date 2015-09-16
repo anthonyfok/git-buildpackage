@@ -1,4 +1,12 @@
-    <chapter id="gbp.special">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % COMMON SYSTEM "../common.ent">
+  %COMMON;
+  <!ENTITY % VERSION SYSTEM "../version.ent">
+  %VERSION;
+]>
+<chapter id="gbp.special">
     <title>Special use cases</title>
     <sect1 id="gbp.special.dfsgfree">
     <title>Handling non-DFSG clean upstream sources</title>

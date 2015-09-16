@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!ENTITY man.common.options.synopsis
 "
       <arg><option>--version</option></arg>

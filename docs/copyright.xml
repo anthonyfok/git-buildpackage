@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE legalnotice PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                      "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<legalnotice>
   <para>
     git-buildpackage, all associated scripts and programs, this manual,
     and all build scripts are Copyright &copy; 2006-2015 Guido Guenther.
@@ -18,5 +22,6 @@
       <para>
         You should have received a copy of the GNU General Public License
         along with this program; if not, please see
-        &lt;http://www.gnu.org/licenses/&gt;
+        &lt;<ulink url="http://www.gnu.org/licenses/"/>&gt;
       </para>
+</legalnotice>

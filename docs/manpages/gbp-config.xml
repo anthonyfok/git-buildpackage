@@ -1,3 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % COMMON SYSTEM "../common.ent">
+  %COMMON;
+  <!ENTITY % VERSION SYSTEM "../version.ent">
+  %VERSION;
+  <!ENTITY % MANPAGES SYSTEM "manpages.ent">
+  %MANPAGES;
+]>
 <refentry id="man.gbp.config">
   <refentryinfo>
     <address>
@@ -84,9 +94,7 @@
     ...
     </screen>
   </refsect1>
-  <refsect1>
-      &man.gbp.config-files;
-  </refsect1>
+  <xi:include href="&man.gbp.config-files;" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <refsect1>
     <title>SEE ALSO</title>
     <para>

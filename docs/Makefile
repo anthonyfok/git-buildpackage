@@ -53,7 +53,8 @@ git-pbuilder.1: ../bin/git-pbuilder
 manual.sgml: $(VERSION_ENT)
 
 $(VERSION_ENT): $(GBP_VERSION)
-	echo '<!ENTITY gbp-version "$(DEB_VERSION)">' > $(VERSION_ENT)
+	echo '<?xml version="1.0" encoding="utf-8"?>' > $(VERSION_ENT)
+	echo '<!ENTITY gbp-version "$(DEB_VERSION)">' >> $(VERSION_ENT)
 
 clean:
 	-rm -r manual-html/

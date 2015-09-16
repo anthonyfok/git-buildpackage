@@ -1,3 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY % COMMON SYSTEM "../common.ent">
+  %COMMON;
+  <!ENTITY % VERSION SYSTEM "../version.ent">
+  %VERSION;
+]>
 <chapter id="gbp.cfgfile">
     <title>Configuration files</title>
     <para>The configuration files are parsed in this order:

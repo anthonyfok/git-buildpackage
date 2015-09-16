@@ -1,4 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE refsect1 PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                   "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<refsect1>
     <title>CONFIGURATION FILES</title>
     <para>Several <filename>gbp.conf</filename> files are parsed 
     to set defaults for the above command-line arguments. See the
     <xref linkend="man.gbp.conf"/> manpage for details.</para>
+</refsect1>
